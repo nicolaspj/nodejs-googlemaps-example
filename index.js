@@ -14,7 +14,7 @@ app.use('/coffee', coffee);
 app.use('/pizza', pizza);
 
 app.get('/',function(req,res){
-  res.render('layout', { title: 'Node.js / Google Maps Example', subtitle: 'with the help of the Express, Path, and Jade modules' });
+  res.render('layout', { title: 'Mar del Bache', subtitle: 'Los Baches de la ciudad de Mar del Plata' });
 });
 
 app.listen(3000)
